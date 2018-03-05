@@ -1,0 +1,44 @@
+{
+  "name": "chartist-plugin-htmllabels",
+  "version": "0.1.0",
+  "description": "Provides the ability to use HTML labels again",
+  "main": "dist/chartist-plugin-htmllabels.js",
+  "browser": "dist/chartist-plugin-htmllabels.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "config": {
+    "banner": "/* chartist-plugin-htmllabels <%= pkg.version %>\n * Copyright © <%= year %> Sebastian Hilger\n * Free to use under the MIT license.\n */\n",
+    "src": "src",
+    "dist": "dist",
+    "tmp": ".tmp",
+    "test": "test"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manogi/chartist-plugin-htmllabels.git"
+  },
+  "keywords": [
+    "chartist",
+    "plugin",
+    "html",
+    "labels"
+  ],
+  "author": "Sebastian Hilger <basti@hilger.io> (https://github.com/manogi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manogi/chartist-plugin-htmllabels/issues"
+  },
+  "homepage": "https://github.com/manogi/chartist-plugin-htmllabels#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0",
+    "time-grunt": "^1.4.0"
+  }
+}
