@@ -7,7 +7,7 @@
     'use strict';
 
     Chartist.plugins = Chartist.plugins || {};
-    Chartist.plugins.ctHtmlLabels = function(options) {
+    Chartist.plugins.ctHtmlLabels = function() {
 
         return function ctHtmlLabels(chart) {
             chart.on('draw', function(context) {
