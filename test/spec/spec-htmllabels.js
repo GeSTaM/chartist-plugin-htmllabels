@@ -1,4 +1,4 @@
-describe('ctHtmlLabels', function () {
+describe('htmllabels', function () {
   'use strict';
 
   beforeEach(function () {
@@ -10,6 +10,6 @@ describe('ctHtmlLabels', function () {
   });
 
   it('should be defined in chartist', function () {
-    expect(window.Chartist.plugins.ctHtmlLabels).toBeDefined();
+    expect(window.Chartist.plugins.htmllabels).toBeDefined();
   });
 });

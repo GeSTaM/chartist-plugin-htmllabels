@@ -1,6 +1,6 @@
 {
   "name": "chartist-plugin-htmllabels",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Provides the ability to use HTML labels again",
   "main": "dist/chartist-plugin-htmllabels.js",
   "browser": "dist/chartist-plugin-htmllabels.js",
@@ -50,8 +50,5 @@
     "jshint-stylish": "~1.0.0",
     "load-grunt-config": "^0.19.2",
     "time-grunt": "^1.0.0"
-  },
-  "dependencies": {
-    "sanitize-html": "^1.18.2"
   }
 }

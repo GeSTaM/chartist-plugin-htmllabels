@@ -14,7 +14,7 @@ module.exports = function (grunt) {
     dist: {
       src: '<%= pkg.config.src %>/scripts/chartist-plugin-htmllabels.js',
       dest: '<%= pkg.config.dist %>/chartist-plugin-htmllabels.js',
-      objectToExport: 'Chartist.plugins.ctHtmlLabels',
+      objectToExport: 'Chartist.plugins.htmllabels',
       indent: '  ',
       deps: {
         default: ['Chartist'],

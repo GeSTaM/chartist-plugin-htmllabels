@@ -35,7 +35,7 @@ var chart = new Chartist.Line('.chart', {
     },
     offset: 80
   },
-  plugins: [Chartist.plugins.ctHtmlLabels()]
+  plugins: [Chartist.plugins.htmllabels()]
 });
 
 ```

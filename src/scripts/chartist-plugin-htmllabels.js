@@ -6,15 +6,13 @@
 (function(window, document, Chartist) {
     'use strict';
 
-    var sanitizeHtml = require('sanitize-html');
-
     Chartist.plugins = Chartist.plugins || {};
-    Chartist.plugins.ctHtmlLabels = function() {
 
-        return function ctHtmlLabels(chart) {
+    Chartist.plugins.htmllabels = function() {
+        return function htmllabels(chart) {
             chart.on('draw', function(context) {
                 if (context.type === 'label') {
-                    context.element.empty()._node.innerHTML = sanitizeHtml(context.text);
+                    context.element.empty()._node.innerHTML = context.text;
                 }
             });
         };
