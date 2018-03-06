@@ -6,14 +6,15 @@
 (function(window, document, Chartist) {
     'use strict';
 
+    var sanitizeHtml = require('sanitize-html');
+
     Chartist.plugins = Chartist.plugins || {};
     Chartist.plugins.ctHtmlLabels = function() {
 
         return function ctHtmlLabels(chart) {
             chart.on('draw', function(context) {
                 if (context.type === 'label') {
-                    // Best to combine with something like sanitize-html
-                    context.element.empty()._node.innerHTML = context.text;
+                    context.element.empty()._node.innerHTML = sanitizeHtml(context.text);
                 }
             });
         };
