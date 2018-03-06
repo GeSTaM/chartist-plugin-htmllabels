@@ -44,12 +44,11 @@
     "grunt-contrib-jasmine": "~1.1.0",
     "grunt-contrib-jshint": "~0.12.0",
     "grunt-contrib-uglify": "^1.0.0",
-    "grunt-umd": "~2.2.1",
+    "grunt-umd": "^3.0.0",
     "grunt-newer": "^1.0.0",
     "jasmine-fixture": "~1.2.2",
     "jshint-stylish": "~1.0.0",
     "load-grunt-config": "^0.19.2",
     "time-grunt": "^1.0.0"
-  },
-  "dependencies": {}
+  }
 }
