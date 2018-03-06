@@ -6,7 +6,7 @@ Since Chartist version 0.11 you could no longer use HTML like `'<a href="/some/l
 
 This plugin brings back that possibility - just call the plugin in your `plugins` array and you can use HTML again.
 
-All credit for the plugin itself goes to [@gionkunz](https://github.com/gionkunz) (see his code [here in an issue](https://github.com/gionkunz/chartist-js/issues/1015)). I just added the HTML sanitizer and wrapped it in a npm package.
+All credit for the plugin itself goes to [@gionkunz](https://github.com/gionkunz) (see his code [here in an issue](https://github.com/gionkunz/chartist-js/issues/1015)). I just wrapped it in a npm package.
 
 ## Install
 
