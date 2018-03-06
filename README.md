@@ -17,6 +17,8 @@ $ npm install chartist-plugin-htmllabels --save
 In an example chart:
 
 ```
+require('chartist-plugin-htmllabels');
+
 var chart = new Chartist.Line('.chart', {
   labels: ['<a href="#">1</a>', '<a href="#">2</a>', '<a href="#">3</a>', '<a href="#">4</a>', '<a href="#">5</a>'],
   series: [
